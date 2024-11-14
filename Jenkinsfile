@@ -4,9 +4,8 @@ pipeline {
 	    stage('package'){
 		  steps{
 			sh 'mvn clean package'
-		    
-		  }
-	}
+		    }
+	    }
+        }
     }
-}
 
